@@ -17,7 +17,7 @@ SELECT DISTINCT
     END AS Told_Had_High_Blood_Pressure_2_Or_More_Times,
     CASE
         WHEN BPD035 BETWEEN 13 AND 79 THEN CAST(BPD035 AS STRING)
-        WHEN BPD035 = 12 THEN "	12 years or younger"
+        WHEN BPD035 = 12 THEN "12 years or younger"
         WHEN BPD035 = 80 THEN "80 years or older"
         WHEN BPD035 = 777 THEN "Refused"
         WHEN BPD035 = 999 THEN "Don't know"
