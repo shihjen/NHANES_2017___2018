@@ -75,7 +75,7 @@ SELECT DISTINCT
         ELSE "Missing"
     END AS Pain_In_Left_Arm,
     CASE
-        WHEN CDQ009H = 8 THEN "	Pain in epigastric area"
+        WHEN CDQ009H = 8 THEN "Pain in epigastric area"
         ELSE "Missing"
     END AS Pain_In_Epigastric_Area,
     CASE
